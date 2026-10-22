@@ -1,0 +1,7 @@
+1)
+install.packages("devtools")
+devtools::install_github("MahShaaban/pcr")
+
+2)
+install.packages(c("rtpcr","tidyr","pheatmap","ggrepel"))
+install.packages(c("ape", "pegas", "ggplot2"))
