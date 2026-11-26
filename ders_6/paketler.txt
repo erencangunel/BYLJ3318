@@ -1,0 +1,3 @@
+install.packages(setdiff(c("BiocManager", "ggplot2", "ggrepel", "pheatmap", "ggridges", "fmsb", "dplyr", "writexl", "rstudioapi"), rownames(installed.packages())), Ncpus = 1)
+
+BiocManager::install(setdiff(c("DESeq2", "edgeR", "limma", "SummarizedExperiment", "clusterProfiler", "org.Hs.eg.db", "AnnotationDbi", "GO.db", "KEGGREST", "fgsea", "BiocParallel"), rownames(installed.packages())), ask = FALSE, update = FALSE, Ncpus = 1)
